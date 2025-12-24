@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Switcher</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/image/icon.png"
+      type="image/x-icon"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons (Font Awesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="main-title">Color Switcher</h1>
+    </header>
+    <main>
+      <div class="color-palette">
+        <div class="color-palette_header">
+          <button
+            id="gear-btn"
+            aria-expanded="false"
+            aria-controls="color-palette"
+            aria-label="Toggle color palette"
+          >
+            <i class="fa-2xl fa-solid fa-gear fa-spin"></i>
+          </button>
+          <span>Select Color</span>
+        </div>
+
+        <div class="colors">
+          <button
+            class="btn charcoal-black-btn"
+            data-bg="#111827"
+            data-text="#111827"
+            aria-label="Apply charcoal black theme"
+          ></button>
+
+          <button
+            class="btn slate-gray-btn"
+            data-bg="#334155"
+            data-text="#334155"
+            aria-label="Apply slate gray theme"
+          ></button>
+
+          <button
+            class="btn royal-blue-btn"
+            data-bg="#2563eb"
+            data-text="#2563eb"
+            aria-label="Apply royal blue theme"
+          ></button>
+
+          <button
+            class="btn indigo-btn"
+            data-bg="#4f46e5"
+            data-text="#4f46e5"
+            aria-label="Apply indigo theme"
+          ></button>
+
+          <button
+            class="btn violet-btn"
+            data-bg="#7c3aed"
+            data-text="#7c3aed"
+            aria-label="Apply violet theme"
+          ></button>
+
+          <button
+            class="btn emerald-green-btn"
+            data-bg="#10b981"
+            data-text="#10b981"
+            aria-label="Apply emerald green theme"
+          ></button>
+
+          <button
+            class="btn teal-btn"
+            data-bg="#14b8a6"
+            data-text="#14b8a6"
+            aria-label="Apply teal theme"
+          ></button>
+
+          <button
+            class="btn amber-btn"
+            data-bg="#f59e0b"
+            data-text="#f59e0b"
+            aria-label="Apply amber theme"
+          ></button>
+
+          <button
+            class="btn rose-red-btn"
+            data-bg="#e11d48"
+            data-text="#e11d48"
+            aria-label="Apply rose red theme"
+          ></button>
+
+          <button
+            class="btn warm-gray-btn"
+            data-bg="#78716c"
+            data-text="#78716c"
+            aria-label="Apply warm gray theme"
+          ></button>
+          <button
+            class="btn midnight-blue-btn"
+            data-bg="#0f172a"
+            data-text="#0f172a"
+            aria-label="Apply midnight blue theme"
+          ></button>
+          <button
+            class="btn light-coral-btn"
+            data-bg="#fca5a5"
+            data-text="#fca5a5"
+            aria-label="Apply light coral theme"
+          ></button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Coded by
+        <a href="https://github.com/hassan-ali-byte" target="_blank"
+          >Hassan Ali</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
