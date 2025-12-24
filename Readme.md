@@ -119,7 +119,7 @@ This project was built to practice:
 
 ## 🌐 Live Demo
 
-[Click here to view live demo](https://your-demo-link.com)
+[Click here to view live demo](https://color-switcher-js.vercel.app/)
 
 ---
 
